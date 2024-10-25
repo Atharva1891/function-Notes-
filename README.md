@@ -1,4 +1,26 @@
 # function-Notes-
+## DAX in Power BI: 
+### **DAX (Data Analysis Expressions)** is a formula language used in Microsoft Power BI to create calculations and measures. It's a powerful tool that allows you to perform complex data manipulations and analysis directly within your Power BI reports.
+
+## Key DAX Functions and Concepts
+**Calculated Columns**: These are columns created within a table using DAX formulas. They can be used to derive new values based on existing data.
+**Measures**: Measures are calculated fields that are typically used in visualizations. They are created within the Data View and can be used to aggregate data across multiple rows.
+
+## Common DAX Functions:
+**Statistical Functions**: AVERAGE, SUM, MIN, MAX, COUNT, COUNTROWS, etc.
+**Logical Functions**: IF, AND, OR, NOT, etc.
+**Date and Time Functions**: YEAR, MONTH, DAY, DATEADD, DATEDIFF, etc.
+**Mathematical Functions**: ABS, SQRT, POWER, etc.
+**Text Functions**: LEFT, RIGHT, MID, FIND, SUBSTITUTE, etc.
+
+### Use Cases for DAX in Power BI
+-DAX is used for a wide range of data analysis tasks, including:
+-Creating calculated fields: Derive new information from existing data.
+-Aggregating data: Calculate totals, averages, and other summary statistics.
+-Performing time-series analysis: Analyze trends over time.
+-Creating conditional calculations: Perform calculations based on certain conditions.
+-Building complex measures: Create custom measures to meet specific analysis needs.
+
 ## 1. Aggregate Functions
 ### **1. SUM**
 - **Syntax**: `SUM(<ColumnName>)`
